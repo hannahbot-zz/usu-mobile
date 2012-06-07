@@ -1,0 +1,679 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* CSS Document */
+
+/************* Begin Base **************/
+/* CSS Document */
+body {
+	/*background: #dee1e4 url(home-bg-c.jpg) repeat-x;*/
+	background: url(../images/home-bg-c.jpg) repeat-x;
+	color: #666;
+	font: 75.5%/140% Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	text-align: center; 
+}
+
+ul, li, a, p, h1, h2, h3, h4, h5, h6, hr, span, img, form, fieldset {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+h1 {
+	font-size:2em;
+}
+
+h2 {
+	font-size:1.6em;
+}
+
+h3 {
+	font-size:1.4em;
+}
+
+h4 {
+	font-size:1.2em;
+}
+
+h5 {
+	font-size:1.1em;
+}
+
+h6 {
+	font-size:1em;
+}
+
+a {
+	text-decoration:none;/*color:#666;*/
+	color:#003366;
+	background-color:transparent;
+}
+
+
+a:hover {
+	color:#A0AED7;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.clear {
+	clear:both;
+	font-size:1px;
+	line-height:2px;
+}
+
+.dark {
+	color:#73768B;
+}
+
+.darkcolor {
+	background-color:#576881;
+}
+
+.light {
+	color: #D1D3DB;
+}
+
+.normal {
+	font-weight:normal;
+}
+
+.titlebox {
+	font-size:140%;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	line-height:110%;
+	color:#7B1313;
+	padding-top: 3px;
+	padding-bottom: 9px;
+}
+
+.white {
+	color:#fff;
+}
+
+.red {
+	color:#FF0000;
+	}
+
+.remove {
+	display:none !important;
+}
+.clear {
+	clear:both;
+	height:1px;
+	font-size:1px;
+	border:none;
+	margin:0; padding:0;
+	background:transparent;
+	}
+#alerts {
+	text-align:center;
+	width:100%;
+	font-size:1.1em;
+	font-weight:bold;
+	line-height:1.2em;
+}
+/************* End Base ************/
+/************* Begin Body **********/
+/* CSS Document */
+
+#bodywrapper {
+	margin:0 auto 0px auto;
+	text-align:left;
+	width:960px;
+}
+
+#bodymain {
+	padding:8px 0 14px 0;
+	width:960px;
+}
+/************* End Body ************/
+/************* Begin USU Nav *******/
+/* CSS Document */
+#usunavwrapper {
+	height: 60px;
+	margin:0 12px;
+	min-height:60px;
+	width: 936px;
+}
+
+html>body #usunavwrapper {
+	height: auto; /*line only for compliant browsers, IE can't read the min-height in previous line */
+}
+
+#bannerimage {
+	padding-left:12px;
+}
+
+#usunavbox {
+	padding:0px 20px 0 0;
+	float:right;
+}
+
+#usunavbox ul li {
+	padding-right:10px;
+	display:inline;
+}
+
+#usunavbox ul li a{
+	color: #A0AED7;
+}
+
+#usunavbox ul li a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+
+ul.usunavinline {
+font:1.2em Arial, Helvetica, sans-serif;
+list-style-type:none;
+white-space:nowrap;
+}
+/************* End USU Nav *********/
+/************* Begin Lib Nav *******/
+/* CSS Document */
+#libnavwrapper {
+	/*background-color:#666600;
+	 color:default; */
+	width: 936px;
+	height: 50px;
+	text-align:left;
+	margin:0 12px;
+}
+#libnavbox {
+	text-align:center;
+}
+
+#libnavbox ul li {
+	height:49px;
+	float: left;
+}
+
+#libnavbox ul li a {
+	color:#fff;
+	font-weight:bold;
+	display: block;
+	padding-top: 8px;
+	padding-right: 7px;
+	padding-bottom: 11px;
+	padding-left: 7px;
+	margin-top:4px;
+}
+
+
+
+#libnavbox ul li a:hover
+{
+	background-color:#5a390b;
+	text-decoration:none;
+}
+
+ul.libnavinline {
+font:1.2em Arial, Helvetica, sans-serif;
+list-style-type:none;
+white-space:nowrap;
+margin:auto;
+width:50em;
+}
+
+
+/************* End Lib Nav ********/
+/************* Begin Banner *******/
+/* CSS Document */
+#bannerwapper {
+	text-align:left;
+	/*margin-top: 0;*/
+	margin-left: 12px;
+	padding-top: 4px;
+}
+
+/************* End Banner *******/
+/************* Begin Content ****/
+
+#contentwrapper {
+	text-align:left;
+	border-top: 1px; /* solid #fff; */
+	margin-top: 0;
+	margin-left: 12px;
+	padding-top: 3px;
+	width:936px;
+	color:#424532; /*#5E6247; */
+}
+/************* End Content *******/ 
+/************* Begin rightnav ****/
+ul#primary-nav,
+ul#primary-nav ul {
+	background: #f9f9f9; /* IE6 Bug */
+	border-bottom: 1px solid #e5dde5; /*#e5e5dd; */
+	font-size:1em;
+	font-weight:bold;
+	margin: 0em;
+	padding: 0em;
+	width: 159px; /* Width of Menu Items */
+	z-index:300;
+	}
+
+ul#primary-nav li {
+	position: relative;
+	list-style: none;
+	display: block;
+	border-top: 1px solid #e5dde5;
+	border-left: 1px solid #e5dde5;
+	border-right: 1px;
+	padding: 1px;
+	}
+
+ul#primary-nav li a {
+
+	text-decoration: none;
+	color: #003366;
+	padding: 1px;
+	margin-right:1px;
+	border-bottom: 0;
+    font-size:1em;
+	font-weight:bold;
+	padding-left:8px;
+	}
+
+/* Fix IE. Hide from IE Mac \*/
+* html ul#primary-nav li { float: left; height: 1%; padding:0em; padding-left:1px; padding-right:1px;}
+* html ul#primary-nav li a { height: 1%; display: block;}
+/* End */
+
+ul#primary-nav ul {
+	position: absolute;
+	display: none;
+	left: -275px; /* Set 1px less than menu width */
+	top: 0;
+	width: 274px; /* Width of Menu Items */
+	text-align:right;
+	}
+
+ul#primary-nav li ul li a { 
+padding: 2px 5px;
+/*background-color:#f9f9f9;*/
+}
+ /* Sub Menu Styles */
+
+ul#primary-nav li:hover ul ul,
+ul#primary-nav li:hover ul ul ul,
+ul#primary-nav li.over ul ul,
+ul#primary-nav li.over ul ul ul { display: none; } /* Hide sub-menus initially */
+
+ul#primary-nav li:hover ul,
+ul#primary-nav li li:hover ul,
+ul#primary-nav li li li:hover ul,
+ul#primary-nav li.over ul,
+ul#primary-nav li li.over ul,
+ul#primary-nav li li li.over ul { display: block; } /* The magic */
+
+ul#primary-nav li.menuparent { background: #f9f9f9 url(../images/forward-arrow.png) left center no-repeat;}
+
+ul#primary-nav li.menuparent:hover,
+ul#primary-nav li.over { background-color: #f9f9f9; }
+
+ul#primary-nav li a:hover { color: #E2144A; }
+
+/************* End rightnave *****/
+/************* Begin footer ******/
+#footerbox {
+	background:#06233A url(foot-bg-c.jpg) repeat-x;
+	/*width: 936px;*/
+	height:40px;
+	/*margin:2px 12px; */
+	text-align:center;
+	z-index: 0;
+}
+
+#footerbox ul {
+	color:#A0AED7;
+	padding-top: 12px;
+	/*width: 746px;*/
+	list-style-type:none;
+}
+
+#footerbox ul li {
+	display:inline;
+	padding:0 3px;
+	font-size:.95em;
+}
+
+#footerbox ul li a {
+	color: #A0AED7;
+}
+/************* End footer ********/
+/************* Begin Custom *******/
+#menucontentwrapper{
+	width: 670px;
+	margin: 0;
+	float:left;
+	padding-right:16px;
+}
+/* Fix IE. Hide from IE Mac \*/
+* html #menucontentwrapper {
+width:680px; }
+/* End */
+
+#submenuwrapper {
+	height:300px;
+	background-image:url(../images/quick_events.jpg);
+	padding-left: 3px;
+	/*display:block;*/
+	overflow:hidden;
+}
+
+#submenubox {
+	float:left;
+	width:230px;
+	padding-left:3px;
+	padding-right:0;
+	margin-right:6px;
+}
+
+#submenu2box {
+margin-left:242px;
+}
+
+#submenu2box a {
+text-decoration:underline;
+}
+
+#menurelatedLinks {
+font-size:1.2em;
+margin-top:-15px;
+}
+#titlerelatedLinks {
+font-weight:bold;
+font-size:1.25em;
+}
+
+#menuselectionLinks {
+height:160px;
+padding-top:5px;
+}
+
+
+#rightnavwrapper {
+	width: 250px;
+	height:466px;
+	background:url(../images/welcome_bck.jpg) no-repeat;
+	float:left;
+}
+
+#rightnavbox {
+padding:5px;
+}
+
+#rightnavbox ul#inabs {
+padding-left:15px;
+font-size:.9em;
+line-height:2.1em;
+}
+
+#rightnavbox .titlebox1 {
+	font-size:120%;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	line-height:110%;
+	color:#7B1313;
+	margin-top: -20px;
+	padding-bottom: 12px;
+	line-height:1em;
+}
+.titlebox1 {
+	padding-top:25px;
+	margin-top: -10px;
+}
+
+#submenuinfowrapper {
+	/*height:260px;*/
+	background-image:url(../images/submenuinfo1.gif);
+	padding-left:5px;
+	margin-top:5px;
+	font-size:1em;
+}
+
+#submenuinfo {
+	margin-top:6px;
+}
+#quicklinks {
+height:250px;
+}
+
+.qlist {
+	padding-top:12px;
+	padding-left:10px;
+}
+.qlist a {
+	text-decoration:underline;
+}
+
+.submenuimgbox {
+	height:83px;
+	padding: 3px 3px 0px 8px;
+	}
+
+.submenuimgbox p {
+	float:right;
+	width:135px;
+	line-height: 1.2em;
+	font-size:1em;
+	}
+
+.submenuimgbox p a {
+	font-weight:bold;
+	line-height:1.1em;
+	font-size:1.1em;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+
+.submenuimgbox p a.more {
+	font-size:.9em;
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	}
+
+ul.inlinebodynav,
+ul.inlinebodynav ul {
+font:1.20em Arial, Helvetica, sans-serif;
+list-style-type:none;
+white-space:nowrap;
+margin: 0;
+padding: 0;
+width:250px;
+}
+ul.inlinebodynav li {
+	position: relative;
+	list-style: none;
+	background: url(../images/submenuline.gif) left center no-repeat;
+	}
+ul.inlinebodynav li a {
+	display: block;
+	text-decoration: none;
+	color: #777;
+	padding: 6px;
+	margin-left:17px;
+	border: 1px; /*solid #f2f1ed;*/
+	border-bottom: 0;
+	border-left:0;
+}
+ul.inlinebodynav li a:hover {
+	color: #222;
+	background-color:#5A390B;
+}
+/* Fix IE. Hide from IE Mac \*/
+* html ul.inlinebodynav li { float: left; height: 1%; }
+* html ul.inlinebodynav li a { height: 1%; }
+/* End */
+.iconbox { 
+	width:65px; 
+	height:65px;
+	/* background: transparent url("http://www.usu.edu/images/skin/icons_grey_bg.jpg") no-repeat bottom left;*/
+	padding:0 5px 5px 0;
+}
+
+a.underline {
+	text-decoration:underline;
+	}
+a.underlinesmall {
+	text-decoration:underline;
+	font-size:.8em;
+	}
+
+#submenuinfo ul {
+padding-left:15px;
+}
+
+img.floatLeft { 
+    float: left; 
+    margin: 4px; 
+}
+
+.hidden {
+	display:none;
+	}
+
+#submenuinfowrapper ul {
+padding-left:25px;
+}
+ 
+label.floatLeft {
+	float:left;
+}
+.smaller {
+	font-size:.9em;
+}
+/*********** End Custom **********/
+
+
+@media screen, projection
+{
+.mootools_tabs {
+	display:table;
+	margin:.5em auto .5em auto;
+	width:100%;
+}
+
+.mootools_tabs ul.tabs-list {
+	display:block;
+	font-size:1em;
+	line-height:1em;
+	list-style-type:none;
+	margin:0;
+	position:relative;
+	z-index:1; 
+}
+
+.mootools_tabs ul.tabs-list li a {
+	font-size:1em;
+	line-height:1em;
+	padding:5px 10px; 
+}
+
+.mootools_tabs .content {
+	border:1px #888 solid;
+	clear:both;
+	padding:0.5em;
+	position:relative;
+	top:-1px;
+	margin-bottom:-1px;
+		-moz-border-radius: .5em;
+	border-radius: .5em;
+}
+
+.mootools_tabs ul.tabs-list li {
+	border:0 none;
+	display:inline;
+	float:left;
+	margin:0 0.3em 0 0;
+	padding:0;
+}
+
+.mootools_tabs ul.tabs-list li a {
+	background:#ccc;
+	border:1px solid #888;
+	color:#333;
+	display:block;
+	float:left;
+	font-weight:bold;
+	margin:0;
+	-moz-border-radius-topright: 1em;
+	border-top-right-radius: 1em;
+	-moz-border-radius-topleft: 1em;
+	border-top-left-radius: 1em;
+}
+
+.mootools_tabs ul.tabs-list li a:focus,
+.mootools_tabs ul.tabs-list li a:hover,
+.mootools_tabs ul.tabs-list li a:active { 
+	background:#f0f0f0;
+	color:#333;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.mootools_tabs ul.tabs-list li.current a,
+.mootools_tabs ul.tabs-list li.current a:focus,
+.mootools_tabs ul.tabs-list li.current a:hover,
+.mootools_tabs ul.tabs-list li.current a:active {
+	background:#fff;
+	border-bottom:0 none;
+	color:#000;
+	font-weight:bold;
+	padding-bottom:6px;
+	text-decoration:none;
+}
+
+.mootools_tabs .current-info,
+.mootools_tabs .accessibletabsanchor{
+    left:-999em;
+    position:absolute;
+}
+
+ /**
+  * Avoid margin collapsing to enable correct sync of all tabs
+  *
+  * @workaround
+  * @affected all browsers
+  * @css-for all browsers
+  * @valid yes
+  */
+
+.mootools_tabs .tab-content {
+	border-bottom: 1px transparent solid;
+	border-top: 1px transparent solid;
+}
+
+/* IE < 7 don't support transparent borders */
+* html .mootools_tabs .tab-content {
+	border-bottom: 1px #fff solid;
+	border-top: 1px #fff solid;
+}
+
+ /**
+  * Containing floats adjustment and stability fixes for Internet Explorer
+  *
+  * @workaround
+  * @affected IE 5.x/Win, IE6, IE7
+  * @css-for IE 5.x/Win, IE6, IE7
+  * @valid no
+  */
+
+* html .mootools_tabs .content { z-index:-1; }
+
+* html .mootools_tabs { zoom:1; width:auto; position:relative; } 
+*+html .mootools_tabs { zoom:1; width:auto; } 
+
+.mootools_tabs * { zoom:1; }
+
+/** Right and left **/
+#leftInfo {
+	width:49%;
+}
+
+#rightInfo {
+	width:49%;
+	float:right;
+}

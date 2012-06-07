@@ -1,0 +1,39 @@
+#pagewrapper {
+padding: 0px;
+margin: 0px;
+font-family: Arial;
+}
+#title {
+	color: #f5f5f5;
+	background-color: #000033;
+	margin: 0 0 5px 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size:24px;
+}
+#content {
+padding: 0px;
+margin: 0px;
+font-size:20px;
+}
+#content ul {
+list-style: none;
+padding: 0px;
+margin: 0px;
+}
+#content ul li{
+padding: 5px;
+list-style: none;
+border-bottom: 1px solid #dddddd;
+/*background: url(listArrow.png) no-repeat right;*/
+}
+#content ul li a{
+text-decoration: none;
+color: #000000
+}
+#content p {
+padding-left: 5px;
+}
+#content h1 {
+font-size:20px;
+}
